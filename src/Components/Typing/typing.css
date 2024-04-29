@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Noto Sans Mono', monospace;
+    background-color: #e7e9e9;
+}
+
+.App h1{
+    margin-bottom: 30px;
+}
+
+.container{
+    max-width: 650px;
+    margin: 5px;
+    width: calc(100% - 10px);
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    background: #fff;
+    box-shadow: 0 0 6px rgb(0,0,0,0.25);
+}
+
+.text{
+    user-select: none;
+}
+
+.input-field{
+    opacity: 0;
+    z-index: -999;
+    position: absolute;
+}
+
+span{
+    font-size: 20px;
+    user-select: none;
+    cursor: text;
+}
+
+.active{
+    border-bottom: 2px solid blue;
+}
+.correct{
+    background-color: #049c1360;
+}
+.wrong{
+    background-color: rgba(247, 0, 0, 0.281);
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 2px solid rgb(106, 106, 104);
+}
+
+.btn{
+    padding: 5px;
+    outline: none;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #049c13;
+    color: #fff;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background: #02500b;
+}
