@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SushantVarshney21/Typing_Speed_Project.git/static/css/main.fe50647d.css",
+    "main.js": "/SushantVarshney21/Typing_Speed_Project.git/static/js/main.e3d923dd.js",
+    "static/js/453.6522f542.chunk.js": "/SushantVarshney21/Typing_Speed_Project.git/static/js/453.6522f542.chunk.js",
+    "index.html": "/SushantVarshney21/Typing_Speed_Project.git/index.html",
+    "main.fe50647d.css.map": "/SushantVarshney21/Typing_Speed_Project.git/static/css/main.fe50647d.css.map",
+    "main.e3d923dd.js.map": "/SushantVarshney21/Typing_Speed_Project.git/static/js/main.e3d923dd.js.map",
+    "453.6522f542.chunk.js.map": "/SushantVarshney21/Typing_Speed_Project.git/static/js/453.6522f542.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe50647d.css",
+    "static/js/main.e3d923dd.js"
+  ]
+}
